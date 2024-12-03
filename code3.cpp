@@ -5,7 +5,7 @@
 using namespace std;
 
 int main() {
-    ifstream ifs(R"(C:\Users\User\adventOfCode2024\inputs\input3.txt)");
+    ifstream ifs(R"(inputs\input3.txt)");
     ostringstream oss;
     oss << ifs.rdbuf();
     string input = oss.str();
