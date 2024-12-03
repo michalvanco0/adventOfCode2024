@@ -5,7 +5,7 @@ fun main() {
     val lst1 = mutableListOf<Int>()
     val lst2 = mutableListOf<Int>()
 
-    File("C:\\Users\\User\\Java\\input.txt").forEachLine { line ->
+    File("inputs\\input.txt").forEachLine { line ->
         val parts = line.trim().split("\\s+".toRegex())
         if (parts.size == 2) {
             val num1 = parts[0].toInt()
@@ -20,7 +20,7 @@ fun main() {
     for (i in lst1.indices) {
         count += abs(lst1[i] - lst2[i])
     }
-//    println(count)
+    println(count)
 
 //    2
     var score = 0
