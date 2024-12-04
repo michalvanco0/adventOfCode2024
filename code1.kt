@@ -5,7 +5,7 @@ fun main() {
     val lst1 = mutableListOf<Int>()
     val lst2 = mutableListOf<Int>()
 
-    File("inputs\\input.txt").forEachLine { line ->
+    File("inputs\\input1.txt").forEachLine { line ->
         val parts = line.trim().split("\\s+".toRegex())
         if (parts.size == 2) {
             val num1 = parts[0].toInt()
@@ -30,3 +30,4 @@ fun main() {
     }
     println(score)
 }
+>>>>>>> master

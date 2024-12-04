@@ -6,7 +6,7 @@ import java.util.List;
 
 public class advent2 {
     public static void main(String[] args) {
-        String filePath = "Cinputs\\input2.txt";
+        String filePath = "inputs\\input2.txt";
         int count = 0;
         int count1 = 0;
         try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
@@ -55,3 +55,4 @@ public class advent2 {
         return false;
     }
 }
+>>>>>>> master
